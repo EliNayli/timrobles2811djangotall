@@ -26,11 +26,11 @@ SECRET_KEY = 'django-insecure--pr-1)sp$5m62zud=284=zt!=75=in=h4@$l@a*a6_fl47q7qm
 DEBUG = True
 
 ALLOWED_HOSTS = []
-git 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'myapp.apps.MyappConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
